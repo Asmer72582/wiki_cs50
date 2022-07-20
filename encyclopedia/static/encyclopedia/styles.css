@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color: rgb(213, 213, 213);
 }
 
 code {
@@ -13,12 +13,13 @@ h1 {
 }
 
 textarea {
-    height: 90vh;
+    height: 50vh;
+    resize: none;
     width: 80%;
 }
 
 .main {
-    padding: 10px;
+    padding: 10px 50px;
 }
 
 .search {
@@ -28,11 +29,23 @@ textarea {
 }
 
 .sidebar {
-    background-color: #f0f0f0;
+    background-color: #696966;
     height: 100vh;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
+
+
 .sidebar h2 {
-    margin-top: 5px;
+    color: white;
+    margin-top: 15px;
+}
+
+a {
+    color: #000;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #fff;
 }
